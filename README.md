@@ -1,1 +1,3 @@
 # Retinal-Disease-Detection-MATLAB
+
+The process involves tracking the center points and estimating the diameter of blood vessels, which poses a persistent challenge in medical image analysis. We postulate that both the curvature and diameter of blood vessels follow Gaussian processes (GPs). To address this, we employ the Local Radon transform, known for its robustness against noise, to compute features and facilitate the training of the GPs. By acquiring knowledge from the kernelized covariance matrix derived from training data, we can estimate the direction and diameter of the vessels. Additionally, to identify bifurcations, we utilize multiple GPs, quantifying the disparity between their respective predicted directions.
